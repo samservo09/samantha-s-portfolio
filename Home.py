@@ -7,11 +7,8 @@ st.set_page_config(
 
 st.sidebar.success("Select a page above.")
 
-container = st.beta_container()
+st.title("Beyond the Vernaculum")
+st.write("SAMANTHA SERVO")
 
-with container:
-    st.title("Beyond the Vernaculum")
-    st.write("SAMANTHA SERVO")
-
-with container:
-    st.image("img\profile-pic.JPG", caption="My profile picture", use_column_width=True)
+#insert my profile picture
+st.image("img\profile-pic.JPG", caption="My profile picture", width=230)
