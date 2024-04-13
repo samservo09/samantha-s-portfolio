@@ -7,8 +7,12 @@ st.set_page_config(
 
 st.sidebar.success("Select a page above.")
 
-st.title("Beyond the Vernaculum")
-st.write("SAMANTHA SERVO")
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.title("Beyond the Vernaculum")
+    st.write("SAMANTHA SERVO")
 
-#insert my profile picture
-st.image("img\profile-pic.JPG", caption="My profile picture", width=230)
+with col2:
+    #insert my profile picture
+    st.image("img\profile-pic.JPG", caption="My profile picture", width=230)
+
