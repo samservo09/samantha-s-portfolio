@@ -67,7 +67,7 @@ st.write(
     AI/ML Committee | Google Developer Students Clubs | Pamantasan ng Lungsod ng Maynila 
     
     • Participated in study jams about Artificial Intelligence and Machine Learning.
-    • Participated in PLM-Google Developer Students Clubs’ events.
+    • Participated in PLM-Google Developer Students Clubs events.
     
     > November 2022 - December 2022
     
@@ -84,5 +84,44 @@ st.write(
     • Exposed to new technologies such as Dialogflow, node.js, and socket.io by creating a chatbot. 
     • Improved understanding of Dashlabs.ai as a company and its customers.
     • Learned the importance of interaction flow for understanding consumers/costumers when creating a chatbot.
+    """
+)
+
+#education
+st.write("#")
+st.subheader("Education")
+st.write(
+    """
+    > September 2021 - June 2025
+    Bachelor of Science in Computer Science | Pamantasan ng Lungsod ng Maynila | Intramuros, Manila
+    """
+)
+
+#licenses and certifications
+st.write("#")
+st.subheader("Licenses and Certifications")
+st.write(
+    """
+    > Certified in Cybersecurity
+    
+    International Information System Security Certification Consortium (ISC)² (Issued: 04/2023 - Expires: 04/26)
+    
+    > Completed DOST SPARTA’s Data Science Pathway
+    
+    Smarter Philippines through Data Analytics, R&D, Training, and Adoption This initiative is the result of a collaborative effort among the Department of Science and Technology (DOST), Development Academy of the Philippines (DAP), Analytics Association of the Philippines (AAP), and Coursebank, supervised by the DOST-Philippine Council for Industry, Energy, and Emerging Technology Research and Development (DOST-PCIEERD).
+    
+    """
+)
+
+#others
+st.write("#")
+st.subheader("Others")
+st.write(
+    """
+    > Second Placer Hack-Attack: Won 2nd prize with my group, Econnovators through the development of EnableU for the PLM-GDSC ideathon (02/2023)
+    
+    > DOST-SEI S&T RA 7687: Qualified for DOST (Department of Science and Technology) 2021 Scholarship Program
+    
+    > DataCamp Scholar: Awarded with one year of free access to 350+ courses and tracks in the DataCamp Platform.
     """
 )
