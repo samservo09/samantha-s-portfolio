@@ -15,7 +15,7 @@ with col1:
 
 with col2:
     #insert my profile picture
-    st.image("img\profile-pic.JPG", width=230)
+    st.image("img\profile-pic.png", width=230)
 
 #short description about me and my site
 st.write("Welcome to my portfolio website! This is a website I have created to compile and showcase all information about me. That includes my projects so you can see how we can work together in the future!")
