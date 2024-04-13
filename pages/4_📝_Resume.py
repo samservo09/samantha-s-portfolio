@@ -24,3 +24,14 @@ with col2:
     )
     st.write("📧: samanthaservo09@gmail.com")
     
+#social links
+st.write("#")
+social_media = {
+    "LinkedIn": "https://www.linkedin.com/in/samantha-servo-43625b18a",
+    "Github": "https://github.com/samservo09",
+    "Facebook": "https://www.facebook.com/profile.php?viewas=100000686899395&id=100002915061794"
+}
+cols = st.columns(len(social_media))
+for index, (platform, link) in enumerate(social_media.items()):
+    cols[index].write(f"[{platform}]({link})")
+
