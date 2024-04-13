@@ -35,3 +35,17 @@ cols = st.columns(len(social_media))
 for index, (platform, link) in enumerate(social_media.items()):
     cols[index].write(f"[{platform}]({link})")
 
+#skills section
+st.write("#")
+st.subheader("Skills")
+st.write(
+    """
+    Technical skills:
+    
+    Python | Jupyter Notebook | Google Colaboratory | SQL | Microsoft Office (Word, Excel, and Powerpoint) | Dialogflow | Git | HTML | CSS
+    
+    Business skills:
+    
+    Intelligence | Detail-oriented | Project Management Skills | Growth mindset | Good communication skills
+    """
+)
