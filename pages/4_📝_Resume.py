@@ -49,3 +49,40 @@ st.write(
     Intelligence | Detail-oriented | Project Management Skills | Growth mindset | Good communication skills
     """
 )
+
+#experience section
+st.write("#")
+st.subheader("Experience")
+st.write(
+    """
+    > 2022 - Present
+    
+    Data Committee | Google Developer Students Clubs | Pamantasan ng Lungsod ng Maynila 
+    
+    • Appointed as a committee manager
+    • Assisted with Data Camp incoming scholars' application
+    
+    > 2021 - 2022
+    
+    AI/ML Committee | Google Developer Students Clubs | Pamantasan ng Lungsod ng Maynila 
+    
+    • Participated in study jams about Artificial Intelligence and Machine Learning.
+    • Participated in PLM-Google Developer Students Clubs’ events.
+    
+    > November 2022 - December 2022
+    
+    Virtual Apprentice | Iceberg Insulated
+    
+    • Learned to apply sales forecasting to the given historical data of the company.
+    • Application of data visualization and data cleaning through Python and spreadsheets (mainly Google Sheets).
+    • Built a dashboard page for Iceberg employees to track sales and inventory using Google Sheets.
+
+    > May 2022 - June 2022
+    
+    Virtual Apprentice | Dashlabs.ai
+    
+    • Exposed to new technologies such as Dialogflow, node.js, and socket.io by creating a chatbot. 
+    • Improved understanding of Dashlabs.ai as a company and its customers.
+    • Learned the importance of interaction flow for understanding consumers/costumers when creating a chatbot.
+    """
+)
