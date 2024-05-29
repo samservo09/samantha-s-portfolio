@@ -18,7 +18,7 @@ image_path = img_dir / 'profile-pic.png'
 #division of two different contents
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.title("BEYOND THE VERNACULUM")
+    st.title("BEYOND THE VINCULUM")
     st.write("Samantha Servo")
 
 with col2:
