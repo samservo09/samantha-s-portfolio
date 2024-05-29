@@ -27,4 +27,6 @@ with col2:
         st.image(str(image_path), width=230)  # Convert Path object to string
 
 #short description about me and my site
-st.write("I am an aspiring Data Scientist.")
+st.write("Hello! I am an aspiring Data Scientist.")
+st.write("I also consider myself as an autodidact and multipotentialite. An outlier, beyond the vernaculum! Why those things? I love teaching myself (autodidact) about the different interests (multipotentialite) that I have.")
+st.write("I taught myself both in creative and technical hobbies that I have. I won't enumerate them here because they're a lot! Just imagine how many I have that I have a Notion page just to manage them all. That's how I love learning. In this website portfolio, DATA SCIENCE/ANALYSIS is our star.")
