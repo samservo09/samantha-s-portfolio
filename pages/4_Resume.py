@@ -1,10 +1,9 @@
 import streamlit as st 
-from PIL import Image
 from pathlib import Path
 
-resume = "resume.pdf"
+resume_path = "resume.pdf"
 
-with open(resume, "rb") as pdf_file:
+with open(resume_path, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 #define image path
