@@ -5,14 +5,14 @@ st.title("Welcome to my projects!")
 
 st.markdown("*Note: Everything here is still in progress. I will soon add my other future personal projects!*")
 
+st.subheader("Excel Projects")
+
 #define image path
 cwd = Path.cwd()
 img_dir = cwd / 'img'
 image_path2 = img_dir / 'project1 .png'
 
 col1, col2 = st.columns(2, gap="small")
-
-st.title("Excel Projects")
 
 with col1:
     #insert project picture
@@ -26,14 +26,14 @@ with col2:
     st.markdown("[Visit Google Sheet](https://docs.google.com/spreadsheets/d/1CMnNx5sVJJMRzZz5heCcvJBlZb9HO1w7LXwPK87dOEI/edit?usp=sharing)")
     
 
-st.title("Python Projects")
+st.subheader("Python Projects")
 st.markdown("soon to be added")
 
-st.title("SQL Projects")
+st.subheader("SQL Projects")
 st.markdown("soon to be added")
 
-st.title("PowerBI Projects")
+st.subheader("PowerBI Projects")
 st.markdown("soon to be added")
 
-st.title("End-to-end Data Science Project")
+st.subheader("End-to-end Data Science Project")
 st.markdown("soon to be added")
