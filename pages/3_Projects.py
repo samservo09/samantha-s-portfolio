@@ -3,7 +3,7 @@ from pathlib import Path
 
 st.title("Welcome to my projects!")
 
-st.markdown("*Note: Everything here is still a placeholder. I will soon add my personal projects!*")
+st.markdown("*Note: Everything here is still in progress. I will soon add my other future personal projects!*")
 
 #define image path
 cwd = Path.cwd()
