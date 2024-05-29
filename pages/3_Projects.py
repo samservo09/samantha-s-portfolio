@@ -12,7 +12,7 @@ image_path2 = img_dir / 'project1.jpg'
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    #insert my profile picture
+    #insert project picture
     if image_path2.exists() and image_path2.is_file():
         st.image(str(image_path2), width=230)  # Convert Path object to string
 
