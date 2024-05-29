@@ -5,7 +5,7 @@ st.title("Welcome to my projects!")
 
 st.markdown("*Note: Everything here is still in progress. I will soon add my other future personal projects!*")
 
-st.subheader("Excel Projects")
+st.subheader("Spreadsheet Projects")
 
 #define image path
 cwd = Path.cwd()
@@ -23,7 +23,7 @@ with col2:
     st.subheader("Financing a car purchase: Loan Amortization Schedule")
     st.write("Based from the book of Michael Sullivan, the College Algebra book, This spreadsheet will help you see a loan amortization schedule based on your inputs. You can make a copy of this google sheet and try it for yourself. I will add more features in the future.")
     st.markdown("[View my writeup about this project](https://docs.google.com/document/d/1552xpUEApxE5wLxYQyQ_nDUPJDdAffuXeackkw_0myM/edit?usp=sharing)")
-    st.markdown("[Visit Google Sheet](https://docs.google.com/spreadsheets/d/1CMnNx5sVJJMRzZz5heCcvJBlZb9HO1w7LXwPK87dOEI/edit?usp=sharing)")
+    st.markdown("[Visit Project](https://docs.google.com/spreadsheets/d/1CMnNx5sVJJMRzZz5heCcvJBlZb9HO1w7LXwPK87dOEI/edit?usp=sharing)")
     
 
 st.subheader("Python Projects")
