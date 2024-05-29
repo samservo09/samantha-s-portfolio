@@ -8,7 +8,7 @@ st.markdown("*Note: Everything here is still a placeholder. I will soon add my p
 #define image path
 cwd = Path.cwd()
 img_dir = cwd / 'img'
-image_path2 = img_dir / 'project1.jpg'
+image_path2 = img_dir / 'project1 .png'
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
@@ -17,6 +17,7 @@ with col1:
         st.image(str(image_path2), width=230)  # Convert Path object to string
 
 with col2:
-    st.subheader("Project 1")
-    st.write("Project description here.")
-    st.markdown("[Visit Github Repo](https://github.com/samservo09/samantha-s-portfolio.git)")
+    st.subheader("Financing a car purchase: Loan Amortization Schedule")
+    st.write("Based from the book of Michael Sullivan, the Precalculus book, I've done the first chapter project. You can make a copy of this google sheet and try it for yourself. I will add more features in the future.")
+    st.markdown("[View my writeup about this project](https://docs.google.com/document/d/1552xpUEApxE5wLxYQyQ_nDUPJDdAffuXeackkw_0myM/edit?usp=sharing)")
+    st.markdown("[Visit Google Sheet](https://docs.google.com/spreadsheets/d/1CMnNx5sVJJMRzZz5heCcvJBlZb9HO1w7LXwPK87dOEI/edit?usp=sharing)")
