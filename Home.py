@@ -17,7 +17,7 @@ with col1:
 
 with col2:
     #insert my profile picture
-    st.image("img\profile-pic.png", width=230)
+    st.image(r"img\profile-pic.png", width=230)
 
 #short description about me and my site
 st.write("I am an aspiring Data Scientist.")
