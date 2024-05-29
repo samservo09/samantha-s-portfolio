@@ -14,7 +14,7 @@ col1, col2 = st.columns(2, gap="small")
 with col1:
     #insert project picture
     if image_path2.exists() and image_path2.is_file():
-        st.image(str(image_path2), width=230)  # Convert Path object to string
+        st.image(str(image_path2), width=350)  # Convert Path object to string
 
 with col2:
     st.subheader("Financing a car purchase: Loan Amortization Schedule")
