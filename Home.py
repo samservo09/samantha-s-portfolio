@@ -29,5 +29,5 @@ with col2:
 #short description about me and my site
 st.write("Hello! I am an aspiring Data Analyst/Scientist.")
 st.write("I also consider myself as an autodidact and multipotentialite. An outlier, beyond the vinculum! Why those things? I love teaching myself (autodidact) about the different interests (multipotentialite) that I have.")
-st.write("I taught myself both in creative and technical hobbies that I have. I won't enumerate them here because they're a lot! Just imagine how many I have that I have a Notion page just to manage them all. That's how I love learning. In this website portfolio, DATA SCIENCE/ANALYSIS is our star.")
+st.write("I taught myself both in creative and technical hobbies that I have. I won't enumerate them here because they're a lot! Just imagine how many I have that I have a Notion page just to manage them all. That's how I love learning. In this website portfolio, DATA ANALYSIS/SCIENCE is our star.")
 st.write("I want to use my diverse knowledge and skills in helping businesses have a numerical vision of their current business position and to have data-driven decisions.")
