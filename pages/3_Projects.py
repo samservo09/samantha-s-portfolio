@@ -59,8 +59,8 @@ with col1:
         st.image(str(image_path2), width=350)  # Convert Path object to string
 
 with col2:
-    st.subheader("Stoicsim Quote Generator: Send a daily quote to your email!")
-    st.write("I have created a private library directory using SQL. This will contain all the books that I have read and am currently reading!")
+    st.subheader("Private Library Directory")
+    st.write("I have created a private library directory using SQL. This will contain all the books that I have read and am currently reading! Note: This project is in progress!")
     st.markdown("[View my writeup about this project](https://docs.google.com/document/d/1XKPJXlA7XucW49Mdqz8XRTfev_7jqTMb1JhBah4JM9M/edit?usp=sharing)")
     st.markdown("[Visit Project] to be added!")
 
