@@ -30,7 +30,7 @@ st.subheader("Python Projects")
 #define image path
 cwd = Path.cwd()
 img_dir = cwd / 'img'
-image_path2 = img_dir / 'project1 .png'
+image_path2 = img_dir / 'project2.png'
 
 col1, col2 = st.columns(2, gap="small")
 
